@@ -12,7 +12,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/readpref"
 )
 
-func connetMongo() {
+func ConnetMongo() {
 	localConnectStr := "mongodb://localhost:27017/?readPreference=primary&ssl=false"
 	client, err := mongo.NewClient(options.Client().ApplyURI(
 		// remoteConnectStr,
