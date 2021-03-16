@@ -9,5 +9,6 @@ import (
 func main() {
 
 	fmt.Print(utilities.Double(3))
-	utilities.ConnetMongo()
+	// utilities.ConnetMongo()
+	utilities.ConnetFinnhub()
 }
