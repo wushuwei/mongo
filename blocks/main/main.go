@@ -10,5 +10,6 @@ func main() {
 
 	// fmt.Print(utilities.Double(3))
 	// utilities.ConnetMongo()
-	utilities.ConnetFinnhub()
+	// utilities.ConnetFinnhubSignal()
+	utilities.ConnetFinnhubPattern()
 }
