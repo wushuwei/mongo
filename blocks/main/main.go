@@ -2,8 +2,8 @@ package main
 
 import (
 	
-
-	"github.com/wushuwei/mongo/blocks/routines"
+	"github.com/wushuwei/mongo/blocks/finnhub"
+	// "github.com/wushuwei/mongo/blocks/routines"
 )
 
 func main() {
@@ -11,5 +11,6 @@ func main() {
 	// fmt.Print(utilities.Double(3))
 	// utilities.ConnetMongo()
 	// utilities.ConnetFinnhubSignal()
-	utilities.ConnetFinnhubPattern()
+	// utilities.ConnetFinnhubPattern()
+	finnhub.GetPatternRecognition("TSLA")
 }
